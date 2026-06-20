@@ -1,0 +1,1884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dentora — Family-Friendly Dental Care & Cosmetic Dentistry</title>
+<meta name="description" content="Gentle, modern dental care for the whole family. Routine checkups, cosmetic dentistry, emergency same-day visits, and pediatric-friendly treatment — book your appointment today.">
+<meta name="keywords" content="dentist, family dentistry, cosmetic dentistry, teeth whitening, dental checkup, emergency dentist, pediatric dentist, dental clinic">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Dentora Dental Clinic">
+<link rel="canonical" href="https://www.dentora.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dentora">
+<meta property="og:title" content="Dentora — Family-Friendly Dental Care & Cosmetic Dentistry">
+<meta property="og:description" content="Gentle, modern dental care for the whole family. Routine checkups, cosmetic dentistry, emergency same-day visits, and pediatric-friendly treatment.">
+<meta property="og:image" content="https://images.pexels.com/photos/16903641/pexels-photo-16903641.jpeg?auto=compress&cs=tinysrgb&w=1200">
+<meta property="og:url" content="https://www.dentora.com/">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dentora — Family-Friendly Dental Care & Cosmetic Dentistry">
+<meta name="twitter:description" content="Gentle, modern dental care for the whole family. Book your appointment today.">
+<meta name="twitter:image" content="https://images.pexels.com/photos/16903641/pexels-photo-16903641.jpeg?auto=compress&cs=tinysrgb&w=1200">
+
+<meta name="theme-color" content="#0E141B">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%232DAFC9'/%3E%3Ctext x='50' y='65' font-size='52' text-anchor='middle' fill='white'%3E%F0%9F%A6%B7%3C/text%3E%3C/svg%3E">
+
+<!-- Bootstrap 5 -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Structured Data: Local Business / Dentist -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Dentora",
+  "description": "Family-friendly dental clinic offering checkups, cosmetic dentistry, emergency care, and pediatric dentistry.",
+  "image": "https://images.pexels.com/photos/16903641/pexels-photo-16903641.jpeg",
+  "telephone": "+1-000-000-0000",
+  "email": "hello@dentora.com",
+  "url": "https://www.dentora.com/",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "US"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "09:00",
+    "closes": "19:00"
+  }],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "500"
+  }
+}
+</script>
+<!-- Structured Data: FAQ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"Do you accept walk-ins for emergencies?","acceptedAnswer":{"@type":"Answer","text":"Yes, we hold same-day slots for urgent pain or trauma. Calling ahead helps us prepare, but walk-ins are welcome during open hours."}},
+    {"@type":"Question","name":"How much does a routine checkup cost?","acceptedAnswer":{"@type":"Answer","text":"Pricing depends on your specific needs and insurance coverage. We confirm exact cost before any treatment begins."}},
+    {"@type":"Question","name":"Is sedation available for anxious patients?","acceptedAnswer":{"@type":"Answer","text":"Yes, light sedation options are available for patients with dental anxiety."}},
+    {"@type":"Question","name":"At what age should my child have their first visit?","acceptedAnswer":{"@type":"Answer","text":"We recommend a first visit by age one, or within six months of the first tooth appearing."}},
+    {"@type":"Question","name":"Do you work with my dental insurance?","acceptedAnswer":{"@type":"Answer","text":"We work with most major insurance providers and verify coverage before your appointment."}}
+  ]
+}
+</script>
+
+<style>
+:root{
+  --teal:#2DAFC9;
+  --teal-light:#69E6FE;
+  --teal-dark:#1E8AA0;
+  --coral:#FF6B5C;
+  --coral-dark:#E84F3F;
+  --ink:#0E141B;
+  --muted:#6B7280;
+  --bg-soft:#F6F8F9;
+  --grad: linear-gradient(135deg,var(--teal) 0%, var(--teal-light) 100%);
+  --grad-coral: linear-gradient(135deg,var(--coral) 0%, #FF9478 100%);
+  --ease: cubic-bezier(.16,.84,.32,1);
+}
+
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:'Inter',sans-serif;
+  color:var(--ink);
+  background:#fff;
+  overflow-x:hidden;
+}
+h1,h2,h3,h4,.display-font{
+  font-family:'Plus Jakarta Sans',sans-serif;
+}
+a{text-decoration:none;}
+img{max-width:100%;display:block;}
+.section-pad{padding:90px 0;}
+@media (max-width:768px){.section-pad{padding:56px 0;}}
+
+/* Accessible focus states */
+a:focus-visible,button:focus-visible,input:focus-visible{
+  outline:2px solid var(--teal-dark);
+  outline-offset:3px;
+  border-radius:8px;
+}
+
+/* ---------- Services grid ---------- */
+.service-card{
+  background:#fff;border:1px solid #edf0f2;border-radius:20px;
+  padding:28px 24px;height:100%;
+  transition:transform .35s var(--ease), box-shadow .35s var(--ease), border-color .35s;
+  position:relative;overflow:hidden;
+}
+.service-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  background:var(--grad);transform:scaleX(0);transform-origin:left;
+  transition:transform .4s var(--ease);
+}
+.service-card:hover{transform:translateY(-6px);box-shadow:0 22px 48px rgba(20,30,40,.1);border-color:transparent;}
+.service-card:hover::before{transform:scaleX(1);}
+.service-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    background: var(--bg-soft);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: var(--teal);
+    margin: 0 auto 18px; /* Centers the icon */
+    transition: background .35s, color .35s;
+}
+.service-card {
+    text-align: center;
+}
+.service-card:hover .service-icon{background:var(--grad);color:#fff;}
+.service-card h3{font-size:1.08rem;font-weight:700;margin-bottom:8px;}
+.service-card p{font-size:.88rem;color:var(--muted);margin-bottom:0;line-height:1.55;}
+.service-price{
+  display:inline-block;margin-top:14px;font-size:.78rem;font-weight:700;
+  color:var(--teal-dark);background:rgba(45,175,201,.08);
+  padding:.3rem .7rem;border-radius:50px;
+}
+
+/* ---------- Trust avatars (hero, replaces Learn More) ---------- */
+.trust-stack{
+  display:inline-flex;align-items:center;gap:14px;
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.18);
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+  border-radius:50px;
+  padding:.5rem 1.2rem .5rem .5rem;
+  margin-bottom:1.4rem;
+}
+.trust-avatars{
+  position:relative;
+  width:122px;height:38px;
+  flex-shrink:0;
+}
+.trust-avatars .av{
+  position:absolute;top:0;
+  width:38px;height:38px;border-radius:50%;
+  transition:left .5s var(--ease), z-index 0s;
+}
+.trust-avatars .av img{
+  width:100%;height:100%;object-fit:cover;display:block;
+  border-radius:50%;
+  border:2px solid rgba(255,255,255,.92);
+  box-sizing:border-box;
+  background:#1a232c;
+  transition:opacity .4s var(--ease), transform .4s var(--ease);
+}
+.trust-avatars .av img.swapping{
+  opacity:0;transform:scale(.5);
+}
+.trust-avatars .av:nth-child(1){left:0;z-index:4;}
+.trust-avatars .av:nth-child(2){left:22px;z-index:3;}
+.trust-avatars .av:nth-child(3){left:44px;z-index:2;}
+.trust-avatars .av .ring-pop{
+  position:absolute;inset:-4px;border-radius:50%;
+  border:2px solid var(--coral);
+  opacity:0;pointer-events:none;
+}
+.trust-avatars .av .ring-pop.pulse{
+  animation:ringPop .65s ease-out;
+}
+@keyframes ringPop{
+  0%{opacity:.95;transform:scale(.8);}
+  100%{opacity:0;transform:scale(1.4);}
+}
+.trust-count{
+  width:38px;height:38px;border-radius:50%;
+  background:var(--grad-coral);
+  border:2px solid rgba(255,255,255,.92);
+  color:#fff;font-size:.66rem;font-weight:800;
+  display:flex;align-items:center;justify-content:center;
+  position:absolute;left:78px;top:0;z-index:1;
+}
+.trust-text{color:#fff;line-height:1.3;flex-shrink:0;}
+.trust-text .stars{color:#ffc94d;font-size:.76rem;letter-spacing:1.5px;}
+.trust-text .label{font-size:.8rem;font-weight:700;white-space:nowrap;}
+@media (max-width:420px){
+  .trust-text .label{font-size:.72rem;}
+  .trust-stack{padding:.45rem .9rem .45rem .45rem;gap:10px;}
+}
+
+/* ---------- Buttons ---------- */
+.btn-pill{
+  border-radius:50px;
+  padding:.7rem 1.6rem;
+  font-weight:600;
+  font-size:.95rem;
+  display:inline-flex;
+  align-items:center;
+  gap:.6rem;
+  transition:transform .3s var(--ease), box-shadow .3s var(--ease), background .3s ease;
+  border:none;
+  position:relative;
+}
+.btn-white-pill{
+  background:#fff;
+  color:var(--ink);
+}
+.btn-white-pill:hover{transform:translateY(-2px); box-shadow:0 10px 24px rgba(0,0,0,.12);}
+.btn-ghost-pill{
+  background:rgba(255,255,255,.12);
+  color:#fff;
+  border:1px solid rgba(255,255,255,.35);
+}
+.btn-ghost-pill:hover{background:rgba(255,255,255,.22);}
+.btn-teal-pill{
+  background:var(--grad);
+  color:#fff;
+  box-shadow:0 10px 24px rgba(45,175,201,.35);
+}
+.btn-teal-pill:hover{transform:translateY(-2px); box-shadow:0 14px 28px rgba(45,175,201,.45);}
+.btn-coral-pill{
+  background:var(--grad-coral);
+  color:#fff;
+  box-shadow:0 10px 24px rgba(255,107,92,.35);
+}
+.btn-coral-pill:hover{transform:translateY(-2px); box-shadow:0 14px 28px rgba(255,107,92,.45);}
+.icon-circle{
+  width:34px;height:34px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  background:var(--grad);
+  color:#fff;flex-shrink:0;
+  transition:transform .3s var(--ease);
+}
+.btn-pill:hover .icon-circle{transform:translateX(3px);}
+.icon-circle.dark{background:var(--ink);}
+.icon-circle-sm{width:38px;height:38px;border-radius:50%;background:#fff;border:1px solid #e7eaee;display:flex;align-items:center;justify-content:center;color:var(--ink);transition:.2s;}
+.icon-circle-sm:hover{background:var(--ink);color:#fff;border-color:var(--ink);transform:translateY(-2px);}
+.icon-circle-sm.active{background:var(--grad);color:#fff;border:none;}
+
+/* ---------- Navbar ---------- */
+.navbar-dentora{
+  position:fixed;top:0;left:0;right:0;z-index:1000;
+  padding:18px 0;
+  transition:padding .3s ease;
+}
+.nav-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:10px 18px;
+  border-radius:50px;
+  background:rgba(14,20,27,.32);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  border:1px solid rgba(255,255,255,.12);
+  transition:background .3s ease, box-shadow .3s ease;
+}
+.navbar-dentora.scrolled{padding:12px 0;}
+.navbar-dentora.scrolled .nav-inner{
+  background:rgba(14,20,27,.88);
+  box-shadow:0 12px 30px rgba(0,0,0,.18);
+}
+.brand{
+  color:#fff;font-weight:700;font-size:1.15rem;display:flex;align-items:center;gap:.5rem;
+}
+.brand .bi{color:var(--teal-light);font-size:1.3rem;}
+.nav-links{display:flex;align-items:center;gap:4px;}
+.nav-links a{
+  color:rgba(255,255,255,.75);
+  font-size:.9rem;font-weight:500;
+  padding:.55rem 1.1rem;border-radius:50px;
+  transition:.2s;
+  position:relative;
+}
+.nav-links a:hover{color:#fff;}
+.nav-links a.active{background:#fff;color:var(--ink);font-weight:600;}
+
+/* ---------- Hero (video) ---------- */
+
+.hero{
+  position:relative;
+  min-height:100vh;
+  display:flex;align-items:center;
+  padding-top:120px;padding-bottom:40px;
+  background:#0a0e13;
+  overflow:hidden;
+}
+.hero-video-wrap{
+  position:absolute;inset:0;
+  overflow:hidden;
+}
+.hero-video-wrap video{
+  position:absolute;top:50%;left:50%;
+  min-width:100%;min-height:100%;
+  width:auto;height:auto;
+  transform:translate(-50%,-50%) scale(1.08);
+  object-fit:cover;
+  animation:heroZoom 22s ease-in-out infinite alternate;
+}
+@keyframes heroZoom{
+  0%{transform:translate(-50%,-50%) scale(1.08);}
+  100%{transform:translate(-50%,-50%) scale(1.16);}
+}
+.hero-overlay{
+  position:absolute;inset:0;
+  background:
+    linear-gradient(100deg, rgba(6,9,13,.94) 8%, rgba(6,9,13,.68) 42%, rgba(6,9,13,.32) 72%, rgba(6,9,13,.55) 100%),
+    linear-gradient(to top, rgba(6,9,13,.85) 0%, rgba(6,9,13,0) 28%);
+}
+.hero-grain{
+  position:absolute;inset:0;
+  opacity:.05;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  pointer-events:none;
+}
+.hero-content{position:relative;z-index:2;color:#fff;}
+.hero h1{
+  font-size:clamp(2.3rem,5vw,3.6rem);
+  font-weight:800;line-height:1.07;letter-spacing:-.02em;
+  margin-bottom:1.1rem;
+}
+.hero h1 .accent-underline{
+  position:relative;display:inline-block;
+}
+.hero h1 .accent-underline svg{
+  position:absolute;left:0;bottom:-6px;width:100%;height:14px;
+}
+.hero p.lead-text{
+  color:rgba(255,255,255,.8);
+  font-size:1.05rem;max-width:430px;margin-bottom:1.8rem;
+}
+.hero-cta-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:2.2rem;}
+
+.mute-toggle{
+  position:absolute;
+  bottom:18px;right:18px;
+  z-index:3;
+  width:44px;height:44px;border-radius:50%;
+  background:rgba(14,20,27,.5);
+  backdrop-filter:blur(10px);
+  border:1px solid rgba(255,255,255,.25);
+  color:#fff;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1rem;
+  transition:.25s;
+}
+.mute-toggle:hover{background:rgba(14,20,27,.75);transform:scale(1.06);}
+
+.float-card{
+  background:rgba(13,18,24,.5);
+  backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:18px;
+  padding:14px;
+  max-width:230px;
+  color:#fff;
+  transition:transform .4s var(--ease);
+}
+.float-card:hover{transform:translateY(-4px);}
+.float-card video, .float-card .vid-wrap{
+  border-radius:12px;overflow:hidden;margin-bottom:10px;position:relative;height:110px;
+}
+.float-card video{width:100%;height:100%;object-fit:cover;}
+.play-badge{
+  position:absolute;top:8px;left:8px;width:30px;height:30px;border-radius:50%;
+  background:rgba(255,255,255,.92);display:flex;align-items:center;justify-content:center;color:var(--ink);font-size:.8rem;
+  transition:transform .25s;
+}
+.float-card:hover .play-badge{transform:scale(1.1);}
+.float-card .rating{display:flex;align-items:center;gap:6px;font-size:.8rem;margin-top:8px;color:rgba(255,255,255,.85);}
+
+.pill-tags{display:flex;flex-wrap:wrap;gap:8px;max-width:320px;}
+.pill-tag{
+  background:rgba(255,255,255,.88);
+  color:var(--ink);
+  font-size:.78rem;font-weight:600;
+  padding:.5rem 1rem;border-radius:50px;
+  white-space:nowrap;
+  transition:transform .25s var(--ease), background .25s;
+}
+.pill-tag:hover{transform:translateY(-2px);background:#fff;}
+.pill-tag.outline{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.3);}
+.pill-tag.outline:hover{background:rgba(255,255,255,.18);}
+
+.hero-bottom-bar{
+  position:relative;z-index:2;
+  margin-top:2.5rem;
+  border-top:1px solid rgba(255,255,255,.15);
+  padding-top:18px;
+  display:flex;justify-content:space-between;align-items:center;
+  color:rgba(255,255,255,.65);
+  font-size:.82rem;
+}
+.scroll-cue{display:flex;align-items:center;gap:8px;}
+.scroll-cue .bi{animation:bounceDown 1.8s ease-in-out infinite;}
+@keyframes bounceDown{0%,100%{transform:translateY(0);}50%{transform:translateY(5px);}}
+@media (max-width:768px){
+  .hero-bottom-bar{flex-direction:column;gap:8px;text-align:center;}
+}
+
+/* ---------- Reveal animation ---------- */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s var(--ease), transform .7s var(--ease);}
+.reveal.is-visible{opacity:1;transform:translateY(0);}
+.reveal-delay-1.is-visible{transition-delay:.12s;}
+.reveal-delay-2.is-visible{transition-delay:.24s;}
+.reveal-delay-3.is-visible{transition-delay:.36s;}
+
+/* ---------- Eyebrow / heading ---------- */
+.eyebrow{
+  display:inline-flex;align-items:center;gap:.4rem;
+  background:var(--bg-soft);border:1px solid #e9edf0;
+  color:var(--muted);font-size:.8rem;font-weight:600;
+  padding:.4rem 1rem;border-radius:50px;margin-bottom:1rem;
+}
+.eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--coral);}
+.section-title{font-size:clamp(1.7rem,3.4vw,2.4rem);font-weight:800;letter-spacing:-.02em;line-height:1.15;}
+.section-sub{color:var(--muted);font-size:1rem;max-width:520px;}
+
+/* ---------- Section 2: Advanced Dental Care ---------- */
+.video-call-card{
+  background:#fff;border-radius:22px;padding:14px;box-shadow:0 25px 60px rgba(20,30,40,.12);
+  border:1px solid #eef1f3; max-width:300px;
+  transition:transform .5s var(--ease), box-shadow .5s var(--ease);
+  transform-style:preserve-3d;
+}
+.video-call-card .doctor-img{border-radius:16px;overflow:hidden;height:200px;position:relative;}
+.video-call-card .doctor-img img{width:100%;height:100%;object-fit:cover;}
+.mini-call-thumb{
+  position:absolute;bottom:10px;right:10px;width:54px;height:54px;border-radius:10px;overflow:hidden;
+  border:2px solid #fff;box-shadow:0 6px 14px rgba(0,0,0,.25);
+}
+.call-controls{display:flex;gap:8px;margin-top:12px;}
+.call-btn{width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--bg-soft);color:var(--ink);border:none;transition:.2s;}
+.call-btn:hover{background:#e9edf0;}
+.call-btn.end{background:#f04438;color:#fff;}
+.call-btn.end:hover{background:#d63a2c;}
+
+.stat-card{
+  position:absolute;
+  bottom:-30px;left:-20px;
+  background:#fff;border-radius:18px;padding:18px 20px;
+  box-shadow:0 25px 55px rgba(20,30,40,.16);
+  border:1px solid #eef1f3;
+  width:88%;
+}
+@media (max-width:576px){.stat-card{position:static;margin-top:16px;width:100%;}}
+.stat-card .stat-row{display:flex;justify-content:space-between;margin-bottom:14px;}
+.stat-card .stat-num{font-size:1.6rem;font-weight:800;}
+.stat-card .stat-label{font-size:.75rem;color:var(--muted);}
+.progress-track{height:8px;background:#eef1f3;border-radius:50px;overflow:hidden;}
+.progress-fill{height:100%;width:0%;background:var(--grad);border-radius:50px;transition:width 1.4s var(--ease);}
+.img-frame{border-radius:24px;overflow:hidden;position:relative;}
+.img-frame img{width:100%;height:420px;object-fit:cover;transition:transform .6s var(--ease);}
+.img-frame:hover img{transform:scale(1.04);}
+
+/* ---------- Section 3: Why Choose (cards row) ---------- */
+.choose-head{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:2.2rem;flex-wrap:wrap;gap:1rem;}
+.arrow-pair{display:flex;gap:10px;}
+.arrow-btn{width:42px;height:42px;border-radius:50%;border:1px solid #e3e7ea;background:#fff;display:flex;align-items:center;justify-content:center;color:var(--ink);transition:.25s;}
+.arrow-btn:hover{background:var(--ink);color:#fff;border-color:var(--ink);}
+.arrow-btn.solid{background:var(--grad);color:#fff;border:none;}
+.arrow-btn.solid:hover{filter:brightness(1.08);}
+.arrow-btn:disabled{opacity:.35;pointer-events:none;}
+
+.choose-row{
+  display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;
+  scrollbar-width:none;
+}
+.choose-row::-webkit-scrollbar{display:none;}
+.choose-card{
+  flex:0 0 250px;scroll-snap-align:start;
+  border-radius:20px;padding:22px;height:340px;
+  display:flex;flex-direction:column;justify-content:space-between;
+  transition:transform .4s var(--ease), box-shadow .4s var(--ease);
+}
+.choose-card:hover{transform:translateY(-6px);}
+.choose-card.light{background:var(--bg-soft);border:1px solid #edf0f2;}
+.choose-card.teal{background:var(--grad);color:#fff;}
+.choose-card.teal:hover{box-shadow:0 20px 40px rgba(45,175,201,.3);}
+.choose-card.img-card{padding:0;overflow:hidden;position:relative;}
+.choose-card.img-card img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease);}
+.choose-card.img-card:hover img{transform:scale(1.08);}
+.choose-card.white{background:#fff;border:1px solid #edf0f2;}
+.choose-card.white:hover{box-shadow:0 20px 40px rgba(20,30,40,.1);}
+.avatars-overlap{display:flex;}
+.avatars-overlap img{width:30px;height:30px;border-radius:50%;border:2px solid #fff;object-fit:cover;margin-left:-10px;}
+.avatars-overlap img:first-child{margin-left:0;}
+.mini-bars{display:flex;align-items:flex-end;gap:14px;height:90px;margin-top:auto;}
+.mini-bars .bar{width:26px;border-radius:50px;background:var(--teal);transition:height 1.2s var(--ease);height:0;}
+.mini-bars .bar.peak{background:var(--coral);}
+.mini-bars-labels{display:flex;gap:22px;font-size:.72rem;color:var(--muted);margin-top:8px;}
+
+/* ---------- Signature: Smile Confidence Slider ---------- */
+.smile-slider-section{background:var(--ink);position:relative;overflow:hidden;}
+.smile-slider-section::before{
+  content:'';position:absolute;top:-20%;right:-10%;width:60%;height:140%;
+  background:radial-gradient(circle, rgba(45,175,201,.18) 0%, transparent 70%);
+  pointer-events:none;
+}
+.smile-compare{
+  position:relative;border-radius:24px;overflow:hidden;
+  aspect-ratio:16/10;
+  max-width:100%;
+  cursor:ew-resize;
+  box-shadow:0 30px 70px rgba(0,0,0,.4);
+  user-select:none;
+}
+.smile-compare img{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  pointer-events:none;
+}
+.smile-compare .after-layer{
+  position:absolute;inset:0;
+  overflow:hidden;
+  width:50%;
+}
+.smile-compare .after-layer img{width:200%;max-width:none;}
+.smile-compare .after-layer{will-change:width;}
+.smile-divider{
+  position:absolute;top:0;bottom:0;left:50%;
+  width:3px;background:#fff;
+  transform:translateX(-50%);
+  box-shadow:0 0 12px rgba(0,0,0,.4);
+}
+.smile-handle{
+  position:absolute;top:50%;left:50%;
+  width:48px;height:48px;border-radius:50%;
+  background:#fff;
+  transform:translate(-50%,-50%);
+  display:flex;align-items:center;justify-content:center;
+  color:var(--ink);font-size:1.1rem;gap:2px;
+  box-shadow:0 8px 20px rgba(0,0,0,.35);
+}
+.smile-label{
+  position:absolute;top:16px;
+  font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  padding:.4rem .8rem;border-radius:50px;
+  background:rgba(14,20,27,.55);backdrop-filter:blur(8px);color:#fff;
+}
+.smile-label.before-label{left:16px;}
+.smile-label.after-label{right:16px;background:var(--grad-coral);}
+
+/* ---------- Section 4: Testimonial ---------- */
+.testi-wrap{position:relative;background:var(--bg-soft);border-radius:28px;padding:50px;}
+@media (max-width:768px){.testi-wrap{padding:30px 22px;}}
+.testi-quote-mark{font-family:'Plus Jakarta Sans';font-size:3rem;color:#cfd8dc;line-height:1;}
+.testi-text{font-size:1.35rem;font-weight:600;line-height:1.5;}
+.testi-avatar-circle{width:64px;height:64px;border-radius:18px;overflow:hidden;flex-shrink:0;}
+.testi-avatar-circle img{width:100%;height:100%;object-fit:cover;}
+.testi-side-avatar{position:absolute;top:36px;right:46px;width:64px;height:64px;border-radius:16px;overflow:hidden;box-shadow:0 14px 30px rgba(0,0,0,.12);}
+.testi-side-avatar img{width:100%;height:100%;object-fit:cover;}
+@media (max-width:576px){.testi-side-avatar{display:none;}}
+.testi-dots{display:flex;gap:6px;margin-top:14px;}
+.testi-dots .dot{width:6px;height:6px;border-radius:50%;background:#d6dbde;transition:.3s;cursor:pointer;}
+.testi-dots .dot.active{width:20px;border-radius:50px;background:var(--teal);}
+
+/* ---------- Section 5: Blog ---------- */
+.blog-card{border-radius:18px;overflow:hidden;background:#fff;border:1px solid #edf0f2;transition:.35s var(--ease);}
+.blog-card:hover{transform:translateY(-6px);box-shadow:0 22px 44px rgba(20,30,40,.1);}
+.blog-img{height:190px;position:relative;overflow:hidden;}
+.blog-img img{width:100%;height:100%;object-fit:cover;transition:transform .5s var(--ease);}
+.blog-card:hover .blog-img img{transform:scale(1.06);}
+.blog-tag{position:absolute;top:12px;left:12px;background:rgba(255,255,255,.92);font-size:.7rem;font-weight:600;padding:.3rem .7rem;border-radius:50px;}
+.blog-body{padding:18px 20px 22px;}
+.blog-meta{display:flex;align-items:center;gap:10px;font-size:.78rem;color:var(--muted);margin-bottom:10px;}
+.blog-meta img{width:30px;height:30px;border-radius:50%;object-fit:cover;}
+.blog-title{font-weight:700;font-size:1.02rem;margin-bottom:10px;line-height:1.35;}
+.learn-more{font-size:.85rem;font-weight:600;color:var(--ink);display:inline-flex;align-items:center;gap:6px;transition:gap .25s;}
+.learn-more:hover{gap:10px;color:var(--teal-dark);}
+
+/* ---------- Footer ---------- */
+.footer-cta{background:var(--bg-soft);border-radius:28px;padding:48px;margin-bottom:0;}
+@media (max-width:768px){.footer-cta{padding:28px 20px;border-radius:20px;}}
+.newsletter-input-wrap{display:flex;align-items:center;background:#fff;border:1px solid #e3e7ea;border-radius:50px;padding:6px 6px 6px 18px;max-width:420px;transition:border-color .25s;}
+.newsletter-input-wrap:focus-within{border-color:var(--teal);}
+.newsletter-input-wrap input{border:none;outline:none;flex:1;font-size:.9rem;background:transparent;}
+footer{background:#fff;padding-top:60px;}
+.footer-col-title{font-size:.78rem;font-weight:700;letter-spacing:.05em;color:var(--muted);text-transform:uppercase;margin-bottom:1rem;}
+.footer-link{display:block;color:var(--ink);font-size:.92rem;margin-bottom:.7rem;opacity:.85;transition:.2s;}
+.footer-link:hover{opacity:1;color:var(--teal-dark);transform:translateX(2px);}
+.footer-wordmark{
+  font-family:'Plus Jakarta Sans';font-weight:800;
+  font-size:clamp(3.5rem,14vw,9rem);
+  color:#eef2f4;letter-spacing:-.03em;text-align:center;
+  margin:30px 0 -10px;line-height:1;user-select:none;
+}
+.footer-bottom{border-top:1px solid #eef0f2;padding:18px 0;font-size:.82rem;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;}
+
+/* form alert */
+.subscribe-msg{font-size:.8rem;color:var(--teal-dark);margin-top:8px;display:none;align-items:center;gap:6px;}
+
+/* ---------- Live status badge (hero) ---------- */
+.status-badge{
+  display:inline-flex;align-items:center;gap:.5rem;
+  background:rgba(255,255,255,.1);
+  border:1px solid rgba(255,255,255,.22);
+  backdrop-filter:blur(8px);
+  padding:.4rem .9rem .4rem .7rem;border-radius:50px;
+  font-size:.78rem;font-weight:600;color:#fff;
+  margin-bottom:1.1rem;
+}
+.status-badge .pulse-dot{
+  width:8px;height:8px;border-radius:50%;background:#3DDC84;position:relative;flex-shrink:0;
+}
+.status-badge .pulse-dot::after{
+  content:'';position:absolute;inset:-4px;border-radius:50%;
+  border:2px solid #3DDC84;animation:pulseRing 2s ease-out infinite;
+}
+@keyframes pulseRing{
+  0%{transform:scale(.6);opacity:.9;}
+  100%{transform:scale(1.8);opacity:0;}
+}
+.status-badge.closed .pulse-dot{background:#FFB547;}
+.status-badge.closed .pulse-dot::after{border-color:#FFB547;}
+
+/* ---------- Sticky mobile booking bar ---------- */
+.mobile-book-bar{
+  position:fixed;left:0;right:0;bottom:0;z-index:1050;
+  display:none;
+  background:rgba(14,20,27,.92);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  border-top:1px solid rgba(255,255,255,.1);
+  padding:10px 14px;
+  padding-bottom:calc(10px + env(safe-area-inset-bottom));
+  transform:translateY(100%);
+  transition:transform .4s var(--ease);
+}
+.mobile-book-bar.visible{transform:translateY(0);}
+.mobile-book-bar .row-inner{display:flex;align-items:center;gap:10px;}
+.mobile-book-bar .info{flex:1;min-width:0;color:#fff;}
+.mobile-book-bar .info .t1{font-size:.78rem;font-weight:700;}
+.mobile-book-bar .info .t2{font-size:.7rem;color:rgba(255,255,255,.6);}
+.mobile-book-bar .btn-pill{padding:.6rem 1.1rem;font-size:.85rem;white-space:nowrap;}
+@media (max-width:991px){.mobile-book-bar{display:block;}}
+
+/* ---------- Floating quick-contact bubble ---------- */
+.quick-contact{
+  position:fixed;right:20px;bottom:88px;z-index:1040;
+  display:flex;flex-direction:column;align-items:flex-end;gap:10px;
+}
+@media (max-width:991px){.quick-contact{bottom:96px;right:16px;}}
+.quick-contact-panel{
+  background:#fff;border-radius:18px;padding:14px;
+  box-shadow:0 20px 50px rgba(0,0,0,.18);
+  width:230px;
+  transform:translateY(12px) scale(.96);opacity:0;pointer-events:none;
+  transition:transform .3s var(--ease), opacity .3s var(--ease);
+  border:1px solid #edf0f2;
+}
+.quick-contact-panel.open{transform:translateY(0) scale(1);opacity:1;pointer-events:auto;}
+.quick-contact-panel a{
+  display:flex;align-items:center;gap:10px;
+  padding:.6rem .5rem;border-radius:12px;color:var(--ink);font-size:.85rem;font-weight:600;
+  transition:background .2s;
+}
+.quick-contact-panel a:hover{background:var(--bg-soft);}
+.quick-contact-panel a .bi{font-size:1.1rem;width:22px;text-align:center;}
+.quick-contact-panel a.whatsapp .bi{color:#25D366;}
+.quick-contact-panel a.call .bi{color:var(--teal-dark);}
+.quick-contact-fab{
+  width:58px;height:58px;border-radius:50%;
+  background:var(--grad-coral);color:#fff;
+  display:flex;align-items:center;justify-content:center;font-size:1.4rem;
+  box-shadow:0 14px 32px rgba(255,107,92,.4);
+  border:none;transition:transform .3s var(--ease);
+  position:relative;
+}
+.quick-contact-fab:hover{transform:scale(1.06);}
+.quick-contact-fab .close-icon{display:none;}
+.quick-contact-fab.open .open-icon{display:none;}
+.quick-contact-fab.open .close-icon{display:block;}
+
+/* ---------- Smile Quiz (interactive engagement tool) ---------- */
+.quiz-card{
+  background:#fff;border-radius:24px;
+  box-shadow:0 25px 60px rgba(20,30,40,.1);
+  border:1px solid #edf0f2;
+  padding:36px;
+  position:relative;
+  overflow:hidden;
+}
+@media (max-width:768px){.quiz-card{padding:24px;}}
+.quiz-progress-track{height:6px;background:var(--bg-soft);border-radius:50px;overflow:hidden;margin-bottom:28px;}
+.quiz-progress-fill{height:100%;background:var(--grad-coral);border-radius:50px;width:33%;transition:width .5s var(--ease);}
+.quiz-step{display:none;}
+.quiz-step.active{display:block;animation:quizFade .4s var(--ease);}
+@keyframes quizFade{from{opacity:0;transform:translateX(10px);}to{opacity:1;transform:translateX(0);}}
+.quiz-question{font-size:1.3rem;font-weight:800;margin-bottom:6px;}
+.quiz-sub{color:var(--muted);font-size:.88rem;margin-bottom:22px;}
+.quiz-options{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+@media (max-width:480px){.quiz-options{grid-template-columns:1fr;}}
+.quiz-option{
+  border:1.5px solid #e7eaee;border-radius:14px;padding:16px;
+  display:flex;align-items:center;gap:12px;
+  cursor:pointer;background:#fff;text-align:left;
+  transition:.2s;font-size:.92rem;font-weight:600;color:var(--ink);
+}
+.quiz-option:hover{border-color:var(--teal);background:rgba(45,175,201,.05);}
+.quiz-option.selected{border-color:var(--teal);background:rgba(45,175,201,.08);box-shadow:0 0 0 3px rgba(45,175,201,.12);}
+.quiz-option .bi{font-size:1.3rem;color:var(--teal);flex-shrink:0;}
+.quiz-result{text-align:center;padding:10px 0;}
+.quiz-result .result-icon{
+  width:70px;height:70px;border-radius:50%;background:var(--grad-coral);
+  display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.8rem;
+  margin:0 auto 18px;
+}
+.quiz-result h3{font-weight:800;margin-bottom:10px;}
+.quiz-result p{color:var(--muted);max-width:380px;margin:0 auto 22px;}
+.quiz-nav{display:flex;justify-content:space-between;align-items:center;margin-top:24px;}
+.quiz-back-link{font-size:.85rem;color:var(--muted);font-weight:600;cursor:pointer;display:flex;align-items:center;gap:4px;}
+.quiz-back-link:hover{color:var(--ink);}
+.quiz-back-link.hidden-link{visibility:hidden;}
+
+/* ---------- FAQ Accordion ---------- */
+.faq-item{
+  border-bottom:1px solid #e9edf0;
+}
+.faq-item:first-child{border-top:1px solid #e9edf0;}
+.faq-question{
+  width:100%;text-align:left;background:none;border:none;
+  padding:22px 4px;display:flex;justify-content:space-between;align-items:center;gap:16px;
+  font-weight:700;font-size:1.02rem;color:var(--ink);
+  cursor:pointer;
+}
+.faq-question .faq-icon{
+  width:32px;height:32px;border-radius:50%;background:var(--bg-soft);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  transition:transform .35s var(--ease), background .25s;
+}
+.faq-item.open .faq-question .faq-icon{transform:rotate(45deg);background:var(--grad);color:#fff;}
+.faq-answer{
+  max-height:0;overflow:hidden;
+  transition:max-height .4s var(--ease);
+}
+.faq-answer-inner{padding:0 4px 22px;color:var(--muted);font-size:.92rem;line-height:1.6;max-width:640px;}
+
+/* reduced motion */
+@media (prefers-reduced-motion: reduce){
+  .reveal{opacity:1;transform:none;transition:none;}
+  .progress-fill,.mini-bars .bar,.quiz-progress-fill{transition:none;}
+  .hero-video-wrap video{animation:none;}
+  .scroll-cue .bi{animation:none;}
+  .status-badge .pulse-dot::after{animation:none;}
+  html{scroll-behavior:auto;}
+  *{transition-duration:.01ms !important;}
+}
+</style>
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar-dentora" id="mainNav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#home" class="brand"><i class="bi bi-emoji-smile-fill"></i> Dentora</a>
+      <div class="nav-links d-none d-lg-flex" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#testimonial">Testimonial</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="d-flex align-items-center gap-2">
+        <a href="#contact" class="btn-pill btn-white-pill d-none d-md-inline-flex">Book a Call</a>
+        <button class="btn-pill btn-ghost-pill d-lg-none" id="mobileNavToggle" aria-label="Open menu" aria-expanded="false" style="padding:.55rem .8rem;">
+          <i class="bi bi-list" style="font-size:1.2rem;"></i>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="d-lg-none" style="display:none;margin-top:10px;background:rgba(14,20,27,.92);backdrop-filter:blur(14px);border-radius:18px;padding:14px;">
+      <a href="#home" class="d-block text-white py-2 px-2">Home</a>
+      <a href="#services" class="d-block text-white py-2 px-2">Services</a>
+      <a href="#about" class="d-block text-white py-2 px-2">About Us</a>
+      <a href="#testimonial" class="d-block text-white py-2 px-2">Testimonial</a>
+      <a href="#contact" class="d-block text-white py-2 px-2">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+<!-- ================= HERO (VIDEO BACKGROUND) ================= -->
+<section class="hero" id="home">
+  <div class="hero-video-wrap">
+    <video id="heroVideo" autoplay muted loop playsinline poster="https://images.pexels.com/photos/6528858/pexels-photo-6528858.jpeg?auto=compress&cs=tinysrgb&w=1600">
+      <source src="https://videos.pexels.com/video-files/7803463/7803463-hd_1080_1920_30fps.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-grain"></div>
+
+  <button class="mute-toggle" id="muteToggle" aria-label="Unmute background video" aria-pressed="false">
+    <i class="bi bi-volume-mute-fill" id="muteIcon"></i>
+  </button>
+
+  <div class="container hero-content">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <div class="status-badge reveal" id="statusBadge">
+          <span class="pulse-dot"></span>
+          <span id="statusText">Open Now · Booking Today</span>
+        </div>
+        <h1 class="reveal">Family-Friendly<br><span class="accent-underline">Dental Care
+         <svg class="animated-underline" viewBox="0 0 300 14" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <path class="engaging-path" d="M 30 2 Q 150 22 270 2" />
+</svg>
+<style>
+.animated-underline {
+    display: block;
+    width: 100%;
+    height: 14px;
+    position: absolute;
+    top: 40px;
+    overflow: visible;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .animated-underline {
+        top: 46px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .animated-underline {
+        top: 52px;
+    }
+}
+
+/* Large Desktop */
+@media (min-width: 1200px) {
+    .animated-underline {
+        top: 58px;
+    }
+}
+
+.engaging-path {
+  fill: none;
+  stroke: #ff6b5c;    /* Your coral color */
+  stroke-width: 5px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  filter: url(#glow);
+  
+  /* Set stroke-dasharray to the path length (approx 241) */
+  stroke-dasharray: 241;
+  
+  /* Animation: Draw in and out infinitely, plus a subtle wiggle */
+  animation: 
+    draw-in-infinite 4s linear infinite,
+    subtle-wiggle 3s ease-in-out infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes draw-in-infinite {
+  0% { stroke-dashoffset: 241; }
+  45% { stroke-dashoffset: 0; }
+  55% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: -241; }
+}
+
+@keyframes subtle-wiggle {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(1px) scaleX(1.01); }
+  100% { transform: translateY(0); }
+}
+
+</style>
+        </span></h1>
+        <p class="lead-text reveal reveal-delay-1">Gentle, modern treatments designed around your family's comfort — from routine checkups to confident, healthy smiles for every age.</p>
+
+        <div class="trust-stack reveal reveal-delay-2" id="trustStack" aria-label="Trusted by 500+ patients, rated 4.9 out of 5">
+          <div class="trust-avatars">
+            <span class="av" data-slot="0"><img src="https://images.pexels.com/photos/30004322/pexels-photo-30004322.jpeg?auto=compress&cs=tinysrgb&w=100" alt="" loading="lazy"><span class="ring-pop"></span></span>
+            <span class="av" data-slot="1"><img src="https://images.pexels.com/photos/7221513/pexels-photo-7221513.jpeg?auto=compress&cs=tinysrgb&w=100" alt="" loading="lazy"><span class="ring-pop"></span></span>
+            <span class="av" data-slot="2"><img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=100" alt="" loading="lazy"><span class="ring-pop"></span></span>
+            <span class="trust-count">500+</span>
+          </div>
+          <div class="trust-text">
+            <div class="stars">★★★★★</div>
+            <div class="label">Trusted by 500+ patients</div>
+          </div>
+        </div>
+
+        <div class="hero-cta-row reveal reveal-delay-2">
+          <a href="#contact" class="btn-pill btn-white-pill">
+            Book a Call
+            <span class="icon-circle"><i class="bi bi-arrow-right"></i></span>
+          </a>
+        </div>
+
+        <div class="d-flex flex-wrap gap-4 align-items-end">
+          <div class="float-card reveal reveal-delay-3">
+            <div class="vid-wrap">
+              <video autoplay muted loop playsinline poster="https://images.pexels.com/photos/4269698/pexels-photo-4269698.jpeg?auto=compress&cs=tinysrgb&w=400">
+                <source src="https://videos.pexels.com/video-files/7803463/7803463-hd_1080_1920_30fps.mp4" type="video/mp4">
+              </video>
+              <span class="play-badge"><i class="bi bi-play-fill"></i></span>
+            </div>
+            <div style="font-size:.82rem;font-weight:600;">Restoring natural, confident smiles.</div>
+            <div class="rating"><i class="bi bi-star-fill" style="color:#ffc94d;"></i> 4.9 Rating</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5 d-none d-lg-block">
+        <div class="pill-tags justify-content-end reveal reveal-delay-2">
+          <span class="pill-tag">Dental Checkup</span>
+          <span class="pill-tag outline">Teeth Cleaning</span>
+          <span class="pill-tag outline">Tooth Filling</span>
+          <span class="pill-tag">Gum Treatment</span>
+          <span class="pill-tag outline">Retainers</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-bottom-bar">
+      <span>Your Teeth, Our Science</span>
+      <span>Preview <strong style="color:#fff;">01</strong> / 05</span>
+      <span class="scroll-cue">Scroll for more <i class="bi bi-arrow-down"></i></span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ADVANCED DENTAL CARE ================= -->
+<section class="section-pad" id="about">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <span class="eyebrow reveal"><span class="dot"></span>Feature Treatment</span>
+        <h2 class="section-title reveal reveal-delay-1 mb-3">Advanced Dental Care for a Healthier Smile</h2>
+        <p class="section-sub reveal reveal-delay-2 mb-4">Join hundreds of patients achieving healthier, brighter smiles through expert dental care and treatment plans built around your needs.</p>
+
+        <div class="video-call-card reveal reveal-delay-3" id="tiltCard">
+          <div class="doctor-img">
+            <img src="https://images.pexels.com/photos/7578806/pexels-photo-7578806.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Dr. Daniel Carter" loading="lazy">
+            <div class="mini-call-thumb">
+              <img src="https://images.pexels.com/photos/6627574/pexels-photo-6627574.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Patient call" loading="lazy">
+            </div>
+          </div>
+          <div class="d-flex justify-content-between align-items-start mt-3">
+            <div>
+              <div style="font-weight:700;">Dr. Daniel Carter</div>
+              <div style="font-size:.78rem;color:var(--muted);">Lead Dental Specialist</div>
+              <div style="font-size:.78rem;margin-top:4px;"><i class="bi bi-star-fill" style="color:#ffc94d;"></i> 4.9 (45+ reviews)</div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <div class="call-controls">
+              <button class="call-btn" aria-label="Toggle microphone"><i class="bi bi-mic-fill"></i></button>
+              <button class="call-btn" aria-label="Toggle camera"><i class="bi bi-camera-video-fill"></i></button>
+              <button class="call-btn end" aria-label="End call"><i class="bi bi-telephone-fill"></i></button>
+            </div>
+            <a href="#contact" class="btn-pill btn-teal-pill" style="padding:.55rem 1.1rem;font-size:.82rem;">
+              Book <span class="icon-circle" style="width:22px;height:22px;background:rgba(255,255,255,.25);"><i class="bi bi-arrow-right" style="font-size:.65rem;"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 position-relative">
+        <div class="img-frame reveal reveal-delay-1">
+          <img src="https://images.pexels.com/photos/16903641/pexels-photo-16903641.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Modern dental clinic" loading="lazy">
+        </div>
+        <div class="stat-card reveal reveal-delay-2">
+          <div class="stat-row">
+            <div>
+              <div class="stat-num"><span data-count="2">0</span></div>
+              <div class="stat-label">Recommended Checkups<br>per Year</div>
+            </div>
+            <div class="text-end">
+              <div class="stat-num"><span data-count="40">0</span></div>
+              <div class="stat-label">Average Treatment<br>Time (Mins)</div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between mb-2" style="font-size:.78rem;color:var(--muted);">
+            <span>Today's Appointment Progress</span>
+            <span class="fw-semibold" style="color:var(--ink);">60%</span>
+          </div>
+          <div class="progress-track"><div class="progress-fill" data-progress="60"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="section-pad" id="services" style="background:var(--bg-soft);">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="eyebrow reveal"><span class="dot"></span>Our Services</span>
+      <h2 class="section-title reveal reveal-delay-1 mb-3">Treatments Built Around You</h2>
+      <p class="section-sub reveal reveal-delay-2 mx-auto">From routine prevention to confidence-boosting cosmetic work, every service is delivered with the same gentle, modern standard of care.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="bi bi-clipboard2-pulse"></i></div>
+          <h3>Routine Checkups</h3>
+          <p>Comprehensive exams and professional cleaning to catch issues early and keep your smile on track.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon"><i class="bi bi-stars"></i></div>
+          <h3>Teeth Whitening</h3>
+          <p>Safe, dentist-supervised whitening treatments for a noticeably brighter smile in a single visit.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon"><i class="bi bi-bandaid"></i></div>
+          <h3>Tooth Fillings</h3>
+          <p>Tooth-colored fillings that restore strength and blend naturally with your existing teeth.</p>
+          <!-- <span class="service-price">From $120</span> -->
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="bi bi-emoji-smile"></i></div>
+          <h3>Pediatric Dentistry</h3>
+          <p>Gentle, patient-paced visits designed to make dental care comfortable from a child's very first tooth.</p>
+          <!-- <span class="service-price">From $75</span> -->
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon"><i class="bi bi-lightning-charge"></i></div>
+          <h3>Emergency Care</h3>
+          <p>Same-day appointments for sudden pain, trauma, or anything that simply can't wait until next week.</p>
+          <!-- <span class="service-price">Same-day</span> -->
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon"><i class="bi bi-grid-3x3-gap"></i></div>
+          <h3>Retainers & Aligners</h3>
+          <p>Custom-fit retainers and clear aligner options to maintain or gently improve tooth alignment.</p>
+          <!-- <span class="service-price">From $199</span> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY CHOOSE ================= -->
+<section class="section-pad bg-light-soft" id="why-dentora" style="background:#fff;">
+  <div class="container">
+    <div class="choose-head">
+      <div>
+        <span class="eyebrow reveal"><span class="dot"></span>Why Dentora</span>
+        <h2 class="section-title reveal reveal-delay-1">Why Choose Precision Dental?</h2>
+      </div>
+      <div class="arrow-pair reveal">
+        <button class="arrow-btn" id="chooseLeft" aria-label="Scroll left"><i class="bi bi-arrow-left"></i></button>
+        <button class="arrow-btn solid" id="chooseRight" aria-label="Scroll right"><i class="bi bi-arrow-right"></i></button>
+      </div>
+    </div>
+
+    <div class="choose-row" id="chooseRow">
+      <div class="choose-card white reveal">
+        <div>
+          <i class="bi bi-clipboard2-pulse" style="font-size:1.6rem;color:var(--teal);"></i>
+          <h5 class="mt-3 mb-2" style="font-weight:700;">Complete Oral Solutions</h5>
+          <p style="font-size:.88rem;color:var(--muted);">From preventive checkups to cosmetic dentistry, every treatment is tailored to your smile goals.</p>
+        </div>
+        <a href="#services" class="learn-more">Learn More <i class="bi bi-arrow-up-right"></i></a>
+      </div>
+
+      <div class="choose-card teal reveal reveal-delay-1">
+        <div>
+          <div class="avatars-overlap mb-2">
+            <img src="https://images.pexels.com/photos/7221513/pexels-photo-7221513.jpeg?auto=compress&cs=tinysrgb&w=100" alt="" loading="lazy">
+            <img src="https://images.pexels.com/photos/30004322/pexels-photo-30004322.jpeg?auto=compress&cs=tinysrgb&w=100" alt="" loading="lazy">
+            <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=100" alt="" loading="lazy">
+          </div>
+          <div style="font-size:.82rem;font-weight:600;">3.5K+ join the smiles</div>
+        </div>
+        <div>
+          <span class="pill-tag outline mb-2 d-inline-block"><i class="bi bi-gift"></i> Rewards</span>
+          <p style="font-size:.95rem;margin:0;">Maintain your preventive care streak and earn exclusive whitening and cosmetic rewards.</p>
+        </div>
+      </div>
+
+      <div class="choose-card img-card reveal reveal-delay-2">
+        <img src="https://images.pexels.com/photos/6627574/pexels-photo-6627574.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Happy dental patient" loading="lazy">
+      </div>
+
+      <div class="choose-card white reveal reveal-delay-3">
+        <div>
+          <div class="stat-num" style="font-size:2.1rem;"><span data-count="98">0</span>%</div>
+          <div class="stat-label">Reliable Oral Health<br>Diagnostics</div>
+        </div>
+        <div>
+          <div class="mini-bars">
+            <div class="bar" data-height="55"></div>
+            <div class="bar peak" data-height="100"></div>
+            <div class="bar" data-height="65"></div>
+          </div>
+          <div class="mini-bars-labels"><span>Mar</span><span>Apr</span><span>May</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SIGNATURE: SMILE SLIDER ================= -->
+<section class="section-pad smile-slider-section">
+  <div class="container position-relative">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5">
+        <span class="eyebrow reveal" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.15);color:rgba(255,255,255,.8);"><span class="dot"></span>Real Results</span>
+        <h2 class="section-title reveal reveal-delay-1 mb-3" style="color:#fff;">See the Difference, Drag to Compare</h2>
+        <p class="reveal reveal-delay-2 mb-4" style="color:rgba(255,255,255,.65);max-width:420px;">Every treatment plan is built around a clear outcome. Drag the slider to see a real cosmetic transformation from our care.</p>
+        <a href="#contact" class="btn-pill btn-coral-pill reveal reveal-delay-3">
+          Start Your Transformation
+          <span class="icon-circle" style="background:rgba(255,255,255,.25);"><i class="bi bi-arrow-right"></i></span>
+        </a>
+      </div>
+      <div class="col-lg-7">
+        <div class="smile-compare reveal reveal-delay-1" id="smileCompare" role="slider" aria-label="Before and after smile comparison" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" tabindex="0">
+          <span class="smile-label before-label">Before</span>
+          <span class="smile-label after-label">After</span>
+          <img src="assets/img/after.jpg" alt="Smile before cosmetic treatment" loading="lazy">
+          <div class="after-layer" id="afterLayer">
+            <img src="assets/img/before.jpg" alt="Smile after cosmetic treatment" loading="lazy">
+          </div>
+          <div class="smile-divider" id="smileDivider">
+            <div class="smile-handle"><i class="bi bi-chevron-left" style="font-size:.7rem;"></i><i class="bi bi-chevron-right" style="font-size:.7rem;"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIAL ================= -->
+<section class="section-pad" id="testimonial">
+  <div class="container">
+    <div class="testi-wrap reveal">
+      <span class="eyebrow"><span class="dot"></span>Testimonial</span>
+      <div class="testi-quote-mark">"</div>
+      <p class="testi-text mb-4" id="testiText">We deliver personalized dental treatments using modern technology and gentle care, ensuring healthy, confident smiles for every patient.</p>
+      <div class="d-flex align-items-center justify-content-between flex-wrap gap-3">
+        <div class="d-flex align-items-center gap-3">
+          <div class="testi-avatar-circle">
+            <img id="testiAvatar" src="https://images.pexels.com/photos/30004322/pexels-photo-30004322.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Patient" loading="lazy">
+          </div>
+          <div>
+            <div style="font-weight:700;" id="testiName">Sarah Mitchell</div>
+            <div style="font-size:.82rem;color:var(--muted);" id="testiRole">Happy Patient · 2026</div>
+            <div class="testi-dots" id="testiDots"></div>
+          </div>
+        </div>
+        <div class="arrow-pair">
+          <button class="arrow-btn" id="testiPrev" aria-label="Previous testimonial"><i class="bi bi-arrow-left"></i></button>
+          <button class="arrow-btn solid" id="testiNext" aria-label="Next testimonial"><i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="testi-side-avatar">
+        <img src="https://images.pexels.com/photos/19963182/pexels-photo-19963182.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Dentist" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BLOG ================= -->
+<section class="section-pad" style="background:var(--bg-soft);">
+  <div class="container">
+    <h2 class="section-title text-center reveal mb-5">Lasting Healthy Smiles.</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="blog-card reveal">
+          <div class="blog-img">
+            <img src="https://images.pexels.com/photos/16903641/pexels-photo-16903641.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Modern dental clinic equipment used for professional teeth cleaning" loading="lazy">
+            <span class="blog-tag">Dental Health</span>
+          </div>
+          <div class="blog-body">
+            <div class="blog-meta">
+              <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=80" alt="" loading="lazy">
+              <span>Daniel Reyes · 10 min read · Mar 12, 2026</span>
+            </div>
+            <div class="blog-title">Professional Cleaning vs. Regular Brushing</div>
+            <a href="#" class="learn-more">Learn More <i class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="blog-card reveal reveal-delay-1">
+          <div class="blog-img">
+            <img src="https://images.pexels.com/photos/3779706/pexels-photo-3779706.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Patient consulting with dentist about signs of dental issues" loading="lazy">
+            <span class="blog-tag">Dental Health</span>
+          </div>
+          <div class="blog-body">
+            <div class="blog-meta">
+              <img src="https://images.pexels.com/photos/30004322/pexels-photo-30004322.jpeg?auto=compress&cs=tinysrgb&w=80" alt="" loading="lazy">
+              <span>Maria Lopez · 6 min read · Mar 12, 2026</span>
+            </div>
+            <div class="blog-title">Signs It's Time to Visit Your Dentist</div>
+            <a href="#" class="learn-more">Learn More <i class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="blog-card reveal reveal-delay-2">
+          <div class="blog-img">
+            <img src="https://images.pexels.com/photos/12745979/pexels-photo-12745979.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Parent and child during a gentle pediatric dental visit" loading="lazy">
+            <span class="blog-tag">Dental Health</span>
+          </div>
+          <div class="blog-body">
+            <div class="blog-meta">
+              <img src="https://images.pexels.com/photos/7221513/pexels-photo-7221513.jpeg?auto=compress&cs=tinysrgb&w=80" alt="" loading="lazy">
+              <span>Aisha Bello · 8 min read · Mar 12, 2026</span>
+            </div>
+            <div class="blog-title">Caring for Your Child's First Teeth</div>
+            <a href="#" class="learn-more">Learn More <i class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-5 reveal">
+      <a href="#" class="btn-pill btn-teal-pill">Read More Blog <span class="icon-circle" style="width:24px;height:24px;background:rgba(255,255,255,.25);"><i class="bi bi-arrow-right" style="font-size:.7rem;"></i></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= INTERACTIVE: SMILE QUIZ ================= -->
+<section class="section-pad" id="quiz">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7 text-center mb-5">
+        <span class="eyebrow reveal"><span class="dot"></span>60-Second Check</span>
+        <h2 class="section-title reveal reveal-delay-1 mb-3">Not Sure What You Need? Find Out.</h2>
+        <p class="section-sub reveal reveal-delay-2 mx-auto">Answer three quick questions and we'll point you to the right next step — no waiting room required.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <div class="quiz-card reveal reveal-delay-2" id="quizCard">
+          <div class="quiz-progress-track"><div class="quiz-progress-fill" id="quizProgress"></div></div>
+
+          <!-- Step 1 -->
+          <div class="quiz-step active" data-step="1">
+            <div class="quiz-question">What's on your mind today?</div>
+            <div class="quiz-sub">Pick the one that's closest.</div>
+            <div class="quiz-options">
+              <button class="quiz-option" data-q="1" data-v="checkup"><i class="bi bi-calendar2-check"></i>Routine checkup</button>
+              <button class="quiz-option" data-q="1" data-v="pain"><i class="bi bi-lightning-charge"></i>Tooth pain</button>
+              <button class="quiz-option" data-q="1" data-v="cosmetic"><i class="bi bi-stars"></i>Cosmetic / whitening</button>
+              <button class="quiz-option" data-q="1" data-v="kids"><i class="bi bi-emoji-smile"></i>My child's teeth</button>
+            </div>
+            <div class="quiz-nav"><span class="quiz-back-link hidden-link"><i class="bi bi-arrow-left"></i> Back</span><span></span></div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="quiz-step" data-step="2">
+            <div class="quiz-question">How long has this been going on?</div>
+            <div class="quiz-sub">This helps us flag urgency correctly.</div>
+            <div class="quiz-options">
+              <button class="quiz-option" data-q="2" data-v="today"><i class="bi bi-clock"></i>Just started today</button>
+              <button class="quiz-option" data-q="2" data-v="week"><i class="bi bi-calendar-week"></i>A few days/weeks</button>
+              <button class="quiz-option" data-q="2" data-v="long"><i class="bi bi-hourglass-split"></i>Months or longer</button>
+              <button class="quiz-option" data-q="2" data-v="na"><i class="bi bi-dash-circle"></i>Not applicable</button>
+            </div>
+            <div class="quiz-nav"><span class="quiz-back-link" data-back><i class="bi bi-arrow-left"></i> Back</span><span></span></div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="quiz-step" data-step="3">
+            <div class="quiz-question">When works best for a visit?</div>
+            <div class="quiz-sub">We'll tailor available slots to this.</div>
+            <div class="quiz-options">
+              <button class="quiz-option" data-q="3" data-v="asap"><i class="bi bi-lightning"></i>As soon as possible</button>
+              <button class="quiz-option" data-q="3" data-v="week"><i class="bi bi-calendar3"></i>Sometime this week</button>
+              <button class="quiz-option" data-q="3" data-v="flex"><i class="bi bi-calendar-range"></i>I'm flexible</button>
+            </div>
+            <div class="quiz-nav"><span class="quiz-back-link" data-back><i class="bi bi-arrow-left"></i> Back</span><span></span></div>
+          </div>
+
+          <!-- Result -->
+          <div class="quiz-step" data-step="4">
+            <div class="quiz-result">
+              <div class="result-icon"><i class="bi bi-check2"></i></div>
+              <h3 id="quizResultTitle">You're a good fit for a checkup.</h3>
+              <p id="quizResultText">Based on your answers, we'd recommend booking with our general care team. It typically takes about 40 minutes.</p>
+              <a href="#contact" class="btn-pill btn-coral-pill" id="quizCta">
+                Book This Visit
+                <span class="icon-circle" style="background:rgba(255,255,255,.25);"><i class="bi bi-arrow-right"></i></span>
+              </a>
+              <div class="mt-3"><span class="quiz-back-link" id="quizRestart" style="justify-content:center;display:inline-flex;"><i class="bi bi-arrow-counterclockwise"></i> Start over</span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="section-pad" style="background:var(--bg-soft);">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4">
+        <span class="eyebrow reveal"><span class="dot"></span>FAQ</span>
+        <h2 class="section-title reveal reveal-delay-1 mb-3">Questions, Answered.</h2>
+        <p class="section-sub reveal reveal-delay-2">Can't find what you're looking for? Reach out and we'll get back within the hour.</p>
+        <a href="#contact" class="btn-pill btn-teal-pill reveal reveal-delay-3 mt-2">Ask a Question <span class="icon-circle" style="width:24px;height:24px;background:rgba(255,255,255,.25);"><i class="bi bi-arrow-right" style="font-size:.7rem;"></i></span></a>
+      </div>
+      <div class="col-lg-8">
+        <div class="reveal reveal-delay-1" id="faqAccordion">
+          <div class="faq-item open">
+            <button class="faq-question" aria-expanded="true">
+              Do you accept walk-ins for emergencies?
+              <span class="faq-icon"><i class="bi bi-plus"></i></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">Yes — we hold same-day slots for urgent pain or trauma. Call ahead if you can so we can prep the right room, but you're welcome to walk in during open hours.</div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              How much does a routine checkup cost?
+              <span class="faq-icon"><i class="bi bi-plus"></i></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">Checkup and cleaning pricing depends on your specific needs and insurance coverage. We always confirm the exact cost with you before any treatment begins — no surprise bills.</div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Is sedation available for anxious patients?
+              <span class="faq-icon"><i class="bi bi-plus"></i></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">Yes. We offer light sedation options for patients with dental anxiety, and our team is trained to walk you through every step beforehand so there are no surprises.</div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              At what age should my child have their first visit?
+              <span class="faq-icon"><i class="bi bi-plus"></i></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">We recommend a first visit by age one, or within six months of the first tooth appearing — whichever comes first. Early visits are short, gentle, and mostly about building comfort.</div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Do you work with my dental insurance?
+              <span class="faq-icon"><i class="bi bi-plus"></i></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">We work with most major insurance providers and will verify your coverage before your appointment. If you're unsure, send us your provider name and we'll confirm directly.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER CTA + FOOTER ================= -->
+<section class="section-pad pb-0" id="contact">
+  <div class="container">
+    <div class="footer-cta reveal">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <h2 class="section-title">Your Smile Matters.<br>Connect With Us Today.</h2>
+        </div>
+        <div class="col-lg-6">
+          <p class="section-sub mb-3">Join our newsletter to receive the latest oral health tips, special offers, and clinic updates.</p>
+          <form id="subscribeForm" class="newsletter-input-wrap">
+            <i class="bi bi-envelope" style="color:var(--muted);"></i>
+            <label for="subscribeEmail" class="visually-hidden">Email address</label>
+            <input id="subscribeEmail" type="email" required placeholder="Email Address" style="margin-left:10px;">
+            <button type="submit" class="btn-pill btn-teal-pill" style="padding:.6rem 1.3rem;font-size:.85rem; margin-left: -80px;">Subscribe</button>
+          </form>
+          <div class="subscribe-msg" id="subscribeMsg"><i class="bi bi-check-circle-fill"></i> Thanks! You're subscribed.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="row g-4 py-5">
+      <div class="col-6 col-md-3">
+        <div class="footer-col-title">Company</div>
+        <a href="#home" class="footer-link">Home</a>
+        <a href="#services" class="footer-link">Services</a>
+        <a href="#about" class="footer-link">About Us</a>
+        <a href="#testimonial" class="footer-link">Dentist</a>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="footer-col-title">Resources</div>
+        <a href="#contact" class="footer-link">Contact Us</a>
+        <a href="#" class="footer-link">Blog</a>
+        <a href="#" class="footer-link">FAQ</a>
+        <a href="#" class="footer-link">404 Error</a>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="footer-col-title">Legal</div>
+        <a href="#" class="footer-link">Privacy Policy</a>
+        <a href="#" class="footer-link">Terms and Conditions</a>
+        <a href="#" class="footer-link">License</a>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="footer-col-title">We'd Love To Help</div>
+        <div style="font-weight:700;font-size:1.02rem;margin-bottom:14px;">hello@dentora.com</div>
+        <div class="d-flex gap-2">
+          <a href="#" class="icon-circle-sm" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="icon-circle-sm" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="icon-circle-sm" aria-label="X (Twitter)"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="icon-circle-sm" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-wordmark">Dentora</div>
+  </div>
+</footer>
+
+<!-- ================= STICKY MOBILE BOOKING BAR ================= -->
+<div class="mobile-book-bar" id="mobileBookBar">
+  <div class="row-inner">
+    <div class="info">
+      <div class="t1">Ready when you are</div>
+      <div class="t2">Same-day slots often available</div>
+    </div>
+    <a href="#contact" class="btn-pill btn-coral-pill">Book Now</a>
+  </div>
+</div>
+
+<!-- ================= FLOATING QUICK CONTACT ================= -->
+<div class="quick-contact">
+  <div class="quick-contact-panel" id="quickContactPanel">
+    <a href="#contact" class="whatsapp"><i class="bi bi-whatsapp"></i> Chat on WhatsApp</a>
+    <a href="tel:+10000000000" class="call"><i class="bi bi-telephone-fill"></i> Call the Clinic</a>
+    <a href="#contact"><i class="bi bi-calendar2-check"></i> Book Appointment</a>
+  </div>
+  <button class="quick-contact-fab" id="quickContactFab" aria-label="Open quick contact options" aria-expanded="false">
+    <i class="bi bi-chat-dots-fill open-icon"></i>
+    <i class="bi bi-x-lg close-icon"></i>
+  </button>
+</div>
+
+<!-- ================= SCRIPTS ================= -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script>
+// ---- Navbar scroll state ----
+const mainNav = document.getElementById('mainNav');
+window.addEventListener('scroll', () => {
+  mainNav.classList.toggle('scrolled', window.scrollY > 40);
+});
+
+// ---- Mobile menu toggle ----
+const mobileMenu = document.getElementById('mobileMenu');
+const mobileNavToggle = document.getElementById('mobileNavToggle');
+mobileNavToggle.addEventListener('click', () => {
+  const isOpen = mobileMenu.style.display === 'block';
+  mobileMenu.style.display = isOpen ? 'none' : 'block';
+  mobileNavToggle.setAttribute('aria-expanded', String(!isOpen));
+});
+mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+  mobileMenu.style.display = 'none';
+  mobileNavToggle.setAttribute('aria-expanded', 'false');
+}));
+
+// ---- Active nav link on scroll ----
+const sections = ['home','about','services','testimonial','contact'];
+const navAnchors = document.querySelectorAll('#navLinks a');
+window.addEventListener('scroll', () => {
+  let current = sections[0];
+  sections.forEach(id => {
+    const el = document.getElementById(id);
+    if (el && window.scrollY >= el.offsetTop - 160) current = id;
+  });
+  navAnchors.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + current));
+});
+
+// ---- Hero mute/unmute toggle ----
+const heroVideo = document.getElementById('heroVideo');
+const muteToggle = document.getElementById('muteToggle');
+const muteIcon = document.getElementById('muteIcon');
+muteToggle.addEventListener('click', () => {
+  heroVideo.muted = !heroVideo.muted;
+  const isMuted = heroVideo.muted;
+  muteIcon.className = isMuted ? 'bi bi-volume-mute-fill' : 'bi bi-volume-up-fill';
+  muteToggle.setAttribute('aria-label', isMuted ? 'Unmute background video' : 'Mute background video');
+  muteToggle.setAttribute('aria-pressed', String(!isMuted));
+});
+
+// ---- Scroll reveal + counters + bars ----
+const animateCount = (el) => {
+  const target = parseInt(el.dataset.count, 10);
+  let cur = 0;
+  const step = Math.max(1, Math.round(target / 40));
+  const tick = () => {
+    cur += step;
+    if (cur >= target) { el.textContent = target; return; }
+    el.textContent = cur;
+    requestAnimationFrame(tick);
+  };
+  tick();
+};
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    const el = entry.target;
+    el.classList.add('is-visible');
+
+    el.querySelectorAll('[data-count]').forEach(animateCount);
+    if (el.matches('[data-count]')) animateCount(el);
+
+    el.querySelectorAll('[data-progress]').forEach(bar => {
+      bar.style.width = bar.dataset.progress + '%';
+    });
+    el.querySelectorAll('[data-height]').forEach(bar => {
+      bar.style.height = bar.dataset.height + '%';
+    });
+    observer.unobserve(el);
+  });
+}, { threshold: 0.2 });
+
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// ---- "Why Choose" horizontal scroller ----
+const chooseRow = document.getElementById('chooseRow');
+document.getElementById('chooseLeft').addEventListener('click', () => chooseRow.scrollBy({left:-280, behavior:'smooth'}));
+document.getElementById('chooseRight').addEventListener('click', () => chooseRow.scrollBy({left:280, behavior:'smooth'}));
+
+// ---- Doctor card tilt-on-mousemove ----
+const tiltCard = document.getElementById('tiltCard');
+if (window.matchMedia('(hover: hover)').matches) {
+  tiltCard.addEventListener('mousemove', (e) => {
+    const r = tiltCard.getBoundingClientRect();
+    const x = (e.clientX - r.left) / r.width - 0.5;
+    const y = (e.clientY - r.top) / r.height - 0.5;
+    tiltCard.style.transform = `perspective(800px) rotateY(${x * 6}deg) rotateX(${-y * 6}deg) translateY(-2px)`;
+  });
+  tiltCard.addEventListener('mouseleave', () => {
+    tiltCard.style.transform = 'perspective(800px) rotateY(0) rotateX(0)';
+  });
+}
+
+// ---- Smile before/after slider (signature element) ----
+const smileCompare = document.getElementById('smileCompare');
+const afterLayer = document.getElementById('afterLayer');
+const smileDivider = document.getElementById('smileDivider');
+let smileDragging = false;
+
+function setSmilePosition(percent) {
+  const clamped = Math.max(4, Math.min(96, percent));
+  afterLayer.style.width = clamped + '%';
+  smileDivider.style.left = clamped + '%';
+  smileCompare.setAttribute('aria-valuenow', Math.round(clamped));
+}
+
+function smilePositionFromEvent(e) {
+  const r = smileCompare.getBoundingClientRect();
+  const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+  return ((clientX - r.left) / r.width) * 100;
+}
+
+smileCompare.addEventListener('mousedown', (e) => { smileDragging = true; setSmilePosition(smilePositionFromEvent(e)); });
+window.addEventListener('mousemove', (e) => { if (smileDragging) setSmilePosition(smilePositionFromEvent(e)); });
+window.addEventListener('mouseup', () => smileDragging = false);
+
+smileCompare.addEventListener('touchstart', (e) => { smileDragging = true; setSmilePosition(smilePositionFromEvent(e)); }, {passive:true});
+smileCompare.addEventListener('touchmove', (e) => { if (smileDragging) setSmilePosition(smilePositionFromEvent(e)); }, {passive:true});
+smileCompare.addEventListener('touchend', () => smileDragging = false);
+
+smileCompare.addEventListener('keydown', (e) => {
+  const current = parseFloat(smileDivider.style.left) || 50;
+  if (e.key === 'ArrowLeft') { setSmilePosition(current - 5); e.preventDefault(); }
+  if (e.key === 'ArrowRight') { setSmilePosition(current + 5); e.preventDefault(); }
+});
+
+// ---- Testimonial carousel ----
+const testimonials = [
+  {
+    text: "We deliver personalized dental treatments using modern technology and gentle care, ensuring healthy, confident smiles for every patient.",
+    name: "Sarah Mitchell",
+    role: "Happy Patient · 2026",
+    avatar: "https://images.pexels.com/photos/30004322/pexels-photo-30004322.jpeg?auto=compress&cs=tinysrgb&w=200"
+  },
+  {
+    text: "From the first visit, the team made me feel completely at ease. My checkup was thorough, friendly, and genuinely stress-free.",
+    name: "Marcus Bennett",
+    role: "Happy Patient · 2026",
+    avatar: "https://images.pexels.com/photos/7221513/pexels-photo-7221513.jpeg?auto=compress&cs=tinysrgb&w=200"
+  },
+  {
+    text: "Dentora's preventive care plan caught an issue early. Their attentive, modern approach genuinely changed how I think about dental visits.",
+    name: "Olivia Park",
+    role: "Happy Patient · 2026",
+    avatar: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=200"
+  }
+];
+let testiIndex = 0;
+const testiText = document.getElementById('testiText');
+const testiName = document.getElementById('testiName');
+const testiRole = document.getElementById('testiRole');
+const testiAvatar = document.getElementById('testiAvatar');
+const testiDots = document.getElementById('testiDots');
+
+testimonials.forEach((_, i) => {
+  const dot = document.createElement('span');
+  dot.className = 'dot' + (i === 0 ? ' active' : '');
+  dot.addEventListener('click', () => { testiIndex = i; renderTestimonial(testiIndex); });
+  testiDots.appendChild(dot);
+});
+
+function renderTestimonial(i){
+  const t = testimonials[i];
+  testiText.style.opacity = 0;
+  setTimeout(() => {
+    testiText.textContent = t.text;
+    testiName.textContent = t.name;
+    testiRole.textContent = t.role;
+    testiAvatar.src = t.avatar;
+    testiText.style.opacity = 1;
+    [...testiDots.children].forEach((d, di) => d.classList.toggle('active', di === i));
+  }, 180);
+}
+testiText.style.transition = 'opacity .25s ease';
+document.getElementById('testiNext').addEventListener('click', () => {
+  testiIndex = (testiIndex + 1) % testimonials.length;
+  renderTestimonial(testiIndex);
+});
+document.getElementById('testiPrev').addEventListener('click', () => {
+  testiIndex = (testiIndex - 1 + testimonials.length) % testimonials.length;
+  renderTestimonial(testiIndex);
+});
+
+// ---- Subscribe form (mock) ----
+document.getElementById('subscribeForm').addEventListener('submit', (e) => {
+  e.preventDefault();
+  const msg = document.getElementById('subscribeMsg');
+  msg.style.display = 'flex';
+  e.target.reset();
+});
+
+// ---- Hero trust avatars: smooth, staggered "addition" style cycling ----
+(function(){
+  const stack = document.getElementById('trustStack');
+  if (!stack) return;
+  const avEls = [...stack.querySelectorAll('.av')];
+  const pool = [
+    "https://images.pexels.com/photos/30004322/pexels-photo-30004322.jpeg?auto=compress&cs=tinysrgb&w=100",
+    "https://images.pexels.com/photos/7221513/pexels-photo-7221513.jpeg?auto=compress&cs=tinysrgb&w=100",
+    "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=100",
+    "https://images.pexels.com/photos/6627574/pexels-photo-6627574.jpeg?auto=compress&cs=tinysrgb&w=100",
+    "https://images.pexels.com/photos/19963182/pexels-photo-19963182.jpeg?auto=compress&cs=tinysrgb&w=100",
+    "https://images.pexels.com/photos/4269698/pexels-photo-4269698.jpeg?auto=compress&cs=tinysrgb&w=100"
+  ];
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduceMotion) return;
+
+  let poolIndex = avEls.length;
+
+  function preload(src){
+    return new Promise(resolve => {
+      const im = new Image();
+      im.onload = resolve;
+      im.onerror = resolve;
+      im.src = src;
+    });
+  }
+
+  function swapAvatar(slot){
+    const img = avEls[slot].querySelector('img');
+    const ring = avEls[slot].querySelector('.ring-pop');
+    const nextSrc = pool[poolIndex % pool.length];
+    poolIndex++;
+
+    preload(nextSrc).then(() => {
+      img.classList.add('swapping');
+      setTimeout(() => {
+        img.src = nextSrc;
+        img.classList.remove('swapping');
+        ring.classList.remove('pulse');
+        void ring.offsetWidth;
+        ring.classList.add('pulse');
+      }, 380);
+    });
+  }
+
+  // Cycle one avatar at a time, staggered, so the stack never flips all at once
+  let activeSlot = 0;
+  setInterval(() => {
+    swapAvatar(activeSlot % avEls.length);
+    activeSlot++;
+  }, 2200);
+})();
+
+// ---- Live "open now" status badge, based on real local time ----
+(function(){
+  const badge = document.getElementById('statusBadge');
+  const text = document.getElementById('statusText');
+  const hour = new Date().getHours();
+  const isOpen = hour >= 9 && hour < 19; // 9am-7pm clinic hours
+  if (!isOpen) {
+    badge.classList.add('closed');
+    text.textContent = 'Currently Closed · Opens 9 AM';
+  }
+})();
+
+// ---- Sticky mobile booking bar: reveal after scrolling past hero ----
+const mobileBookBar = document.getElementById('mobileBookBar');
+const heroSection = document.getElementById('home');
+let bookBarTicking = false;
+function updateBookBar(){
+  const heroBottom = heroSection.getBoundingClientRect().bottom;
+  mobileBookBar.classList.toggle('visible', heroBottom < 0);
+  bookBarTicking = false;
+}
+window.addEventListener('scroll', () => {
+  if (!bookBarTicking) {
+    requestAnimationFrame(updateBookBar);
+    bookBarTicking = true;
+  }
+}, { passive: true });
+
+// ---- Floating quick-contact bubble ----
+const quickFab = document.getElementById('quickContactFab');
+const quickPanel = document.getElementById('quickContactPanel');
+quickFab.addEventListener('click', () => {
+  const isOpen = quickPanel.classList.toggle('open');
+  quickFab.classList.toggle('open', isOpen);
+  quickFab.setAttribute('aria-expanded', String(isOpen));
+});
+document.addEventListener('click', (e) => {
+  if (!quickFab.contains(e.target) && !quickPanel.contains(e.target)) {
+    quickPanel.classList.remove('open');
+    quickFab.classList.remove('open');
+    quickFab.setAttribute('aria-expanded', 'false');
+  }
+});
+
+// ---- Smile Quiz state machine ----
+(function(){
+  const card = document.getElementById('quizCard');
+  if (!card) return;
+  const steps = [...card.querySelectorAll('.quiz-step')];
+  const progress = document.getElementById('quizProgress');
+  const answers = {};
+  let stepIndex = 0;
+
+  function goToStep(i){
+    steps[stepIndex].classList.remove('active');
+    stepIndex = i;
+    steps[stepIndex].classList.add('active');
+    progress.style.width = Math.min(100, ((stepIndex) / 3) * 100 + 8) + '%';
+  }
+
+  card.querySelectorAll('.quiz-option').forEach(opt => {
+    opt.addEventListener('click', () => {
+      const q = opt.dataset.q;
+      const v = opt.dataset.v;
+      const group = card.querySelectorAll(`.quiz-option[data-q="${q}"]`);
+      group.forEach(o => o.classList.remove('selected'));
+      opt.classList.add('selected');
+      answers[q] = v;
+      setTimeout(() => {
+        if (stepIndex < 2) {
+          goToStep(stepIndex + 1);
+        } else {
+          renderQuizResult();
+          goToStep(3);
+        }
+      }, 220);
+    });
+  });
+
+  card.querySelectorAll('[data-back]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (stepIndex > 0) goToStep(stepIndex - 1);
+    });
+  });
+
+  document.getElementById('quizRestart').addEventListener('click', () => {
+    card.querySelectorAll('.quiz-option.selected').forEach(o => o.classList.remove('selected'));
+    goToStep(0);
+  });
+
+  function renderQuizResult(){
+    const title = document.getElementById('quizResultTitle');
+    const text = document.getElementById('quizResultText');
+    const cta = document.getElementById('quizCta');
+    const concern = answers['1'];
+    const urgency = answers['2'];
+
+    const isUrgent = concern === 'pain' && (urgency === 'today' || urgency === 'week');
+
+    const copy = {
+      checkup: { t: "A routine checkup fits perfectly.", d: "Based on your answers, our general care team can take you through a full checkup and cleaning — typically about 40 minutes." },
+      pain: { t: isUrgent ? "This sounds urgent — let's get you seen." : "Let's get that pain looked at.", d: isUrgent ? "We hold same-day emergency slots for active pain. Book now and mention urgency when you arrive or call ahead." : "Tooth pain is worth a proper look even if it's manageable now. We'll fit you in for a focused diagnostic visit." },
+      cosmetic: { t: "Cosmetic consultation is your next step.", d: "We'll start with a short consult to map out whitening or cosmetic options that fit your goals and timeline." },
+      kids: { t: "A pediatric-friendly visit is the move.", d: "Our team specializes in making first and early visits calm and easy for kids — and for parents." }
+    };
+    const result = copy[concern] || copy.checkup;
+    title.textContent = result.t;
+    text.textContent = result.d;
+    cta.innerHTML = (isUrgent ? 'Book Urgent Visit' : 'Book This Visit') + ' <span class="icon-circle" style="background:rgba(255,255,255,.25);"><i class="bi bi-arrow-right"></i></span>';
+  }
+})();
+
+// ---- FAQ accordion ----
+document.querySelectorAll('.faq-item').forEach(item => {
+  const question = item.querySelector('.faq-question');
+  const answer = item.querySelector('.faq-answer');
+
+  if (item.classList.contains('open')) {
+    answer.style.maxHeight = answer.scrollHeight + 'px';
+  }
+
+  question.addEventListener('click', () => {
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(openItem => {
+      if (openItem !== item) {
+        openItem.classList.remove('open');
+        openItem.querySelector('.faq-answer').style.maxHeight = null;
+        openItem.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+      }
+    });
+    item.classList.toggle('open', !isOpen);
+    question.setAttribute('aria-expanded', String(!isOpen));
+    answer.style.maxHeight = !isOpen ? answer.scrollHeight + 'px' : null;
+  });
+});
+
+// Recalculate open FAQ height on resize (text reflow)
+window.addEventListener('resize', () => {
+  document.querySelectorAll('.faq-item.open .faq-answer').forEach(a => {
+    a.style.maxHeight = a.scrollHeight + 'px';
+  });
+});
+</script>
+</body>
+</html>
