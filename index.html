@@ -96,20 +96,20 @@
 }
 
 *{box-sizing:border-box;}
-html{scroll-behavior:smooth;}
+/* html{scroll-behavior:smooth;} */
 body{
   font-family:'Inter',sans-serif;
   color:var(--ink);
   background:#fff;
-  overflow-x:hidden;
+  /* overflow-x:hidden; */
 }
 h1,h2,h3,h4,.display-font{
   font-family:'Plus Jakarta Sans',sans-serif;
 }
 a{text-decoration:none;}
-img{max-width:100%;display:block;}
+img{width:100%;display:block;}
 .section-pad{padding:90px 0;}
-@media (max-width:768px){.section-pad{padding:56px 0;}}
+@media (width:768px){.section-pad{padding:56px 0;}}
 
 /* Accessible focus states */
 a:focus-visible,button:focus-visible,input:focus-visible{
@@ -215,7 +215,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{
 .trust-text{color:#fff;line-height:1.3;flex-shrink:0;}
 .trust-text .stars{color:#ffc94d;font-size:.76rem;letter-spacing:1.5px;}
 .trust-text .label{font-size:.8rem;font-weight:700;white-space:nowrap;}
-@media (max-width:420px){
+@media (width:420px){
   .trust-text .label{font-size:.72rem;}
   .trust-stack{padding:.45rem .9rem .45rem .45rem;gap:10px;}
 }
@@ -357,7 +357,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{
 }
 .hero p.lead-text{
   color:rgba(255,255,255,.8);
-  font-size:1.05rem;max-width:430px;margin-bottom:1.8rem;
+  font-size:1.05rem;width:430px;margin-bottom:1.8rem;
 }
 .hero-cta-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:2.2rem;}
 
@@ -383,7 +383,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{
   border:1px solid rgba(255,255,255,.14);
   border-radius:18px;
   padding:14px;
-  max-width:230px;
+  width:230px;
   color:#fff;
   transition:transform .4s var(--ease);
 }
@@ -400,7 +400,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{
 .float-card:hover .play-badge{transform:scale(1.1);}
 .float-card .rating{display:flex;align-items:center;gap:6px;font-size:.8rem;margin-top:8px;color:rgba(255,255,255,.85);}
 
-.pill-tags{display:flex;flex-wrap:wrap;gap:8px;max-width:320px;}
+.pill-tags{display:flex;flex-wrap:wrap;gap:8px;width:320px;}
 .pill-tag{
   background:rgba(255,255,255,.88);
   color:var(--ink);
@@ -425,7 +425,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{
 .scroll-cue{display:flex;align-items:center;gap:8px;}
 .scroll-cue .bi{animation:bounceDown 1.8s ease-in-out infinite;}
 @keyframes bounceDown{0%,100%{transform:translateY(0);}50%{transform:translateY(5px);}}
-@media (max-width:768px){
+@media (width:768px){
   .hero-bottom-bar{flex-direction:column;gap:8px;text-align:center;}
 }
 
@@ -445,12 +445,12 @@ a:focus-visible,button:focus-visible,input:focus-visible{
 }
 .eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--coral);}
 .section-title{font-size:clamp(1.7rem,3.4vw,2.4rem);font-weight:800;letter-spacing:-.02em;line-height:1.15;}
-.section-sub{color:var(--muted);font-size:1rem;max-width:520px;}
+.section-sub{color:var(--muted);font-size:1rem;width:520px;}
 
 /* ---------- Section 2: Advanced Dental Care ---------- */
 .video-call-card{
   background:#fff;border-radius:22px;padding:14px;box-shadow:0 25px 60px rgba(20,30,40,.12);
-  border:1px solid #eef1f3; max-width:300px;
+  border:1px solid #eef1f3; width:300px;
   transition:transform .5s var(--ease), box-shadow .5s var(--ease);
   transform-style:preserve-3d;
 }
@@ -474,7 +474,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{
   border:1px solid #eef1f3;
   width:88%;
 }
-@media (max-width:576px){.stat-card{position:static;margin-top:16px;width:100%;}}
+@media (width:576px){.stat-card{position:static;margin-top:16px;width:100%;}}
 .stat-card .stat-row{display:flex;justify-content:space-between;margin-bottom:14px;}
 .stat-card .stat-num{font-size:1.6rem;font-weight:800;}
 .stat-card .stat-label{font-size:.75rem;color:var(--muted);}
@@ -531,7 +531,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{
 .smile-compare{
   position:relative;border-radius:24px;overflow:hidden;
   aspect-ratio:16/10;
-  max-width:100%;
+  width:100%;
   cursor:ew-resize;
   box-shadow:0 30px 70px rgba(0,0,0,.4);
   user-select:none;
@@ -545,7 +545,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{
   overflow:hidden;
   width:50%;
 }
-.smile-compare .after-layer img{width:200%;max-width:none;}
+.smile-compare .after-layer img{width:200%;width:none;}
 .smile-compare .after-layer{will-change:width;}
 .smile-divider{
   position:absolute;top:0;bottom:0;left:50%;
@@ -573,14 +573,14 @@ a:focus-visible,button:focus-visible,input:focus-visible{
 
 /* ---------- Section 4: Testimonial ---------- */
 .testi-wrap{position:relative;background:var(--bg-soft);border-radius:28px;padding:50px;}
-@media (max-width:768px){.testi-wrap{padding:30px 22px;}}
+@media (width:768px){.testi-wrap{padding:30px 22px;}}
 .testi-quote-mark{font-family:'Plus Jakarta Sans';font-size:3rem;color:#cfd8dc;line-height:1;}
 .testi-text{font-size:1.35rem;font-weight:600;line-height:1.5;}
 .testi-avatar-circle{width:64px;height:64px;border-radius:18px;overflow:hidden;flex-shrink:0;}
 .testi-avatar-circle img{width:100%;height:100%;object-fit:cover;}
 .testi-side-avatar{position:absolute;top:36px;right:46px;width:64px;height:64px;border-radius:16px;overflow:hidden;box-shadow:0 14px 30px rgba(0,0,0,.12);}
 .testi-side-avatar img{width:100%;height:100%;object-fit:cover;}
-@media (max-width:576px){.testi-side-avatar{display:none;}}
+@media (width:576px){.testi-side-avatar{display:none;}}
 .testi-dots{display:flex;gap:6px;margin-top:14px;}
 .testi-dots .dot{width:6px;height:6px;border-radius:50%;background:#d6dbde;transition:.3s;cursor:pointer;}
 .testi-dots .dot.active{width:20px;border-radius:50px;background:var(--teal);}
@@ -601,8 +601,8 @@ a:focus-visible,button:focus-visible,input:focus-visible{
 
 /* ---------- Footer ---------- */
 .footer-cta{background:var(--bg-soft);border-radius:28px;padding:48px;margin-bottom:0;}
-@media (max-width:768px){.footer-cta{padding:28px 20px;border-radius:20px;}}
-.newsletter-input-wrap{display:flex;align-items:center;background:#fff;border:1px solid #e3e7ea;border-radius:50px;padding:6px 6px 6px 18px;max-width:420px;transition:border-color .25s;}
+@media (width:768px){.footer-cta{padding:28px 20px;border-radius:20px;}}
+.newsletter-input-wrap{display:flex;align-items:center;background:#fff;border:1px solid #e3e7ea;border-radius:50px;padding:6px 6px 6px 18px;width:420px;transition:border-color .25s;}
 .newsletter-input-wrap:focus-within{border-color:var(--teal);}
 .newsletter-input-wrap input{border:none;outline:none;flex:1;font-size:.9rem;background:transparent;}
 footer{background:#fff;padding-top:60px;}
@@ -663,14 +663,14 @@ footer{background:#fff;padding-top:60px;}
 .mobile-book-bar .info .t1{font-size:.78rem;font-weight:700;}
 .mobile-book-bar .info .t2{font-size:.7rem;color:rgba(255,255,255,.6);}
 .mobile-book-bar .btn-pill{padding:.6rem 1.1rem;font-size:.85rem;white-space:nowrap;}
-@media (max-width:991px){.mobile-book-bar{display:block;}}
+@media (width:991px){.mobile-book-bar{display:block;}}
 
 /* ---------- Floating quick-contact bubble ---------- */
 .quick-contact{
   position:fixed;right:20px;bottom:88px;z-index:1040;
   display:flex;flex-direction:column;align-items:flex-end;gap:10px;
 }
-@media (max-width:991px){.quick-contact{bottom:96px;right:16px;}}
+@media (width:991px){.quick-contact{bottom:96px;right:16px;}}
 .quick-contact-panel{
   background:#fff;border-radius:18px;padding:14px;
   box-shadow:0 20px 50px rgba(0,0,0,.18);
@@ -711,7 +711,7 @@ footer{background:#fff;padding-top:60px;}
   position:relative;
   overflow:hidden;
 }
-@media (max-width:768px){.quiz-card{padding:24px;}}
+@media (width:768px){.quiz-card{padding:24px;}}
 .quiz-progress-track{height:6px;background:var(--bg-soft);border-radius:50px;overflow:hidden;margin-bottom:28px;}
 .quiz-progress-fill{height:100%;background:var(--grad-coral);border-radius:50px;width:33%;transition:width .5s var(--ease);}
 .quiz-step{display:none;}
@@ -720,7 +720,7 @@ footer{background:#fff;padding-top:60px;}
 .quiz-question{font-size:1.3rem;font-weight:800;margin-bottom:6px;}
 .quiz-sub{color:var(--muted);font-size:.88rem;margin-bottom:22px;}
 .quiz-options{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
-@media (max-width:480px){.quiz-options{grid-template-columns:1fr;}}
+@media (width:480px){.quiz-options{grid-template-columns:1fr;}}
 .quiz-option{
   border:1.5px solid #e7eaee;border-radius:14px;padding:16px;
   display:flex;align-items:center;gap:12px;
@@ -737,7 +737,7 @@ footer{background:#fff;padding-top:60px;}
   margin:0 auto 18px;
 }
 .quiz-result h3{font-weight:800;margin-bottom:10px;}
-.quiz-result p{color:var(--muted);max-width:380px;margin:0 auto 22px;}
+.quiz-result p{color:var(--muted);width:380px;margin:0 auto 22px;}
 .quiz-nav{display:flex;justify-content:space-between;align-items:center;margin-top:24px;}
 .quiz-back-link{font-size:.85rem;color:var(--muted);font-weight:600;cursor:pointer;display:flex;align-items:center;gap:4px;}
 .quiz-back-link:hover{color:var(--ink);}
@@ -764,7 +764,7 @@ footer{background:#fff;padding-top:60px;}
   max-height:0;overflow:hidden;
   transition:max-height .4s var(--ease);
 }
-.faq-answer-inner{padding:0 4px 22px;color:var(--muted);font-size:.92rem;line-height:1.6;max-width:640px;}
+.faq-answer-inner{padding:0 4px 22px;color:var(--muted);font-size:.92rem;line-height:1.6;width:640px;}
 
 /* reduced motion */
 @media (prefers-reduced-motion: reduce){
@@ -1150,7 +1150,7 @@ footer{background:#fff;padding-top:60px;}
       <div class="col-lg-5">
         <span class="eyebrow reveal" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.15);color:rgba(255,255,255,.8);"><span class="dot"></span>Real Results</span>
         <h2 class="section-title reveal reveal-delay-1 mb-3" style="color:#fff;">See the Difference, Drag to Compare</h2>
-        <p class="reveal reveal-delay-2 mb-4" style="color:rgba(255,255,255,.65);max-width:420px;">Every treatment plan is built around a clear outcome. Drag the slider to see a real cosmetic transformation from our care.</p>
+        <p class="reveal reveal-delay-2 mb-4" style="color:rgba(255,255,255,.65);width:420px;">Every treatment plan is built around a clear outcome. Drag the slider to see a real cosmetic transformation from our care.</p>
         <a href="#contact" class="btn-pill btn-coral-pill reveal reveal-delay-3">
           Start Your Transformation
           <span class="icon-circle" style="background:rgba(255,255,255,.25);"><i class="bi bi-arrow-right"></i></span>
